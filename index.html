@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanafi Hassan Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #f5f7fa 0%, #fce4ec 100%);
+        }
+        
+        .highlight-box {
+            position: relative;
+        }
+        
+        .highlight-box:before {
+            content: '';
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            width: 100%;
+            height: 15px;
+            background-color: rgba(236, 72, 153, 0.3);
+            z-index: -1;
+        }
+        
+        .faq-item {
+            transition: all 0.3s ease;
+        }
+        
+        .faq-item:hover {
+            transform: translateX(5px);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="text-2xl font-bold text-pink-500">Hanafi Hassan</div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#masalah" class="hover:text-pink-500">Masalah</a>
+                <a href="#solusi" class="hover:text-pink-500">Solusi</a>
+                <a href="#proses" class="hover:text-pink-500">Proses</a>
+                <a href="#testimoni" class="hover:text-pink-500">Testimoni</a>
+                <a href="#faq" class="hover:text-pink-500">FAQ</a>
+            </div>
+            <a href="https://wa.me/601111357964" class="bg-pink-500 text-white px-4 py-2 rounded-full hover:bg-pink-600 transition flex items-center">
+                <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg py-16 md:py-24">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
+                    Masih Tak Ada <span class="highlight-box">Landing Page</span> Untuk Iklan?
+                    <br>
+                    <span class="text-pink-500">Kami Sediakan Dalam 5 Hari Je</span> – Tanpa Stress & Tanpa Coding!
+                </h1>
+                <p class="text-lg text-gray-600 mb-8">
+                    Servis bina landing page untuk usahawan baru yang nak mula iklan tapi tak tahu nak design. Siap cepat, design lawa, dan terus boleh guna.
+                </p>
+                <a href="https://wa.me/601111357964" class="bg-pink-500 text-white px-8 py-4 rounded-full hover:bg-pink-600 transition text-lg font-medium inline-flex items-center">
+                    <i class="fab fa-whatsapp mr-3 text-xl"></i> Tempah Sekarang – Klik Untuk WhatsApp
+                </a>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://images.pexels.com/photos/3810792/pexels-photo-3810792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Woman running online business" class="rounded-lg shadow-xl max-w-md w-full">
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section id="masalah" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Pening Kepala Nak Buat Page Sendiri?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Jangan risau, kami faham perjuangan anda sebagai usahawan baru. Ini masalah biasa yang kami boleh selesaikan</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+                <div class="bg-gray-50 p-6 rounded-xl text-center">
+                    <div class="text-4xl mb-4 text-pink-500">🧠</div>
+                    <h3 class="font-bold mb-2">Tak tahu nak mula design dari mana</h3>
+                    <p class="text-gray-600">Nak design cantik tapi tak tahu platform apa nak guna?</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl text-center">
+                    <div class="text-4xl mb-4 text-pink-500">⏳</div>
+                    <h3 class="font-bold mb-2">Dah lama tangguh nak buat landing page</h3>
+                    <p class="text-gray-600">Setiap kali nak start, asyik tertangguh saja?</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl text-center">
+                    <div class="text-4xl mb-4 text-pink-500">💸</div>
+                    <h3 class="font-bold mb-2">Tak mampu upah web designer mahal</h3>
+                    <p class="text-gray-600">Budget terhad tapi nak hasil yang professional?</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl text-center">
+                    <div class="text-4xl mb-4 text-pink-500">🚫</div>
+                    <h3 class="font-bold mb-2">Page sendiri nampak tak menarik</h3>
+                    <p class="text-gray-600">Visitor datang tapi sales tak naik-naik?</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl text-center">
+                    <div class="text-4xl mb-4 text-pink-500">✨</div>
+                    <h3 class="font-bold mb-2">Tak convert seperti yang diharapkan</h3>
+                    <p class="text-gray-600">Iklan banyak clicks tapi conversion rendah?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solusi" class="py-16 gradient-bg">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h2 class="text-3xl font-bold mb-6">Servis Bina Landing Page Yang Mesra Usahawan Baru</h2>
+                    <p class="text-gray-700 mb-8">Kami sediakan penyelesaian lengkap untuk usahawan skincare yang baru nak mula run iklan:</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="text-pink-500 text-2xl mr-4 mt-1">✅</div>
+                            <div>
+                                <h3 class="font-bold text-lg">Design Khusus Untuk Skincare</h3>
+                                <p class="text-gray-600">Tak perlu risau design tak sesuai dengan produk. Kami faham estetika untuk bisnes skincare anda.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="text-pink-500 text-2xl mr-4 mt-1">⚡</div>
+                            <div>
+                                <h3 class="font-bold text-lg">Siap Dalam 5 Hari Sahaja</h3>
+                                <p class="text-gray-600">Proses pantas supaya anda boleh mula run iklan dengan segera.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="text-pink-500 text-2xl mr-4 mt-1">🛒</div>
+                            <div>
+                                <h3 class="font-bold text-lg">Optimized Untuk Conversion</h3>
+                                <p class="text-gray-600">Design yang kami buat fokus untuk tingkatkan sales, bukan sekadar cantik.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="text-pink-500 text-2xl mr-4 mt-1">💵</div>
+                            <div>
+                                <h3 class="font-bold text-lg">Harga Mampu Milik</h3>
+                                <p class="text-gray-600">Dapatkan landing page professional dengan harga yang berpatutan untuk usahawan baru.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFuZGluZyUyMHBhZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Landing page mockup" class="rounded-xl shadow-lg max-w-md w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="proses" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Cara Kami Bekerja (4 Langkah Mudah)</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Proses yang mudah dan pantas untuk dapatkan landing page professional</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gradient-to-b from-pink-50 to-white p-6 rounded-xl text-center border border-pink-100">
+                    <div class="text-4xl mb-4 text-pink-500">📩</div>
+                    <h3 class="font-bold mb-2 text-lg">1. Hantar Info Produk</h3>
+                    <p class="text-gray-600">Anda hantar details produk, gambar & link contoh yang anda suka</p>
+                </div>
+                <div class="bg-gradient-to-b from-pink-50 to-white p-6 rounded-xl text-center border border-pink-100">
+                    <div class="text-4xl mb-4 text-pink-500">🖥️</div>
+                    <h3 class="font-bold mb-2 text-lg">2. Kami Design</h3>
+                    <p class="text-gray-600">Kami buat design dalam 3-5 hari bekerja</p>
+                </div>
+                <div class="bg-gradient-to-b from-pink-50 to-white p-6 rounded-xl text-center border border-pink-100">
+                    <div class="text-4xl mb-4 text-pink-500">🔍</div>
+                    <h3 class="font-bold mb-2 text-lg">3. Semak & Revisi</h3>
+                    <p class="text-gray-600">Anda semak & kami buat revisi (2x percuma)</p>
+                </div>
+                <div class="bg-gradient-to-b from-pink-50 to-white p-6 rounded-xl text-center border border-pink-100">
+                    <div class="text-4xl mb-4 text-pink-500">🚀</div>
+                    <h3 class="font-bold mb-2 text-lg">4. Terus Guna!</h3>
+                    <p class="text-gray-600">Landing page siap untuk run iklan!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-16 gradient-bg">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Apa Yang Anda Akan Dapat?</h2>
+                <p class="text-gray-700 max-w-2xl mx-auto">Semua yang anda perlukan untuk landing page yang efektif</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="text-pink-500 text-2xl mb-3">✅</div>
+                    <h3 class="font-bold mb-2">Design Cantik & Custom</h3>
+                    <p class="text-gray-600">Khas mengikut branding produk anda, bukan template generic.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="text-pink-500 text-2xl mb-3">📱</div>
+                    <h3 class="font-bold mb-2">Mobile-Friendly</h3>
+                    <p class="text-gray-600">Optimized untuk semua device dengan loading pantas.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="text-pink-500 text-2xl mb-3">💵</div>
+                    <h3 class="font-bold mb-2">Fokus Conversion</h3>
+                    <p class="text-gray-600">Design yang meningkatkan conversion rate iklan anda.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="text-pink-500 text-2xl mb-3">📲</div>
+                    <h3 class="font-bold mb-2">Mesra Iklan</h3>
+                    <p class="text-gray-600">Struktur yang sesuai untuk Facebook/TikTok ads.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="text-pink-500 text-2xl mb-3">✏️</div>
+                    <h3 class="font-bold mb-2">Boleh Edit Sendiri</h3>
+                    <p class="text-gray-600">Mudah untuk anda update content sendiri di masa depan.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="text-pink-500 text-2xl mb-3">💬</div>
+                    <h3 class="font-bold mb-2">Support Melalui WhatsApp</h3>
+                    <p class="text-gray-600">Bantuan terus melalui chat yang mudah.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimoni" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Apa Kata Pelanggan Kami?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Testimoni usahawan yang telah menggunakan servis kami</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto bg-gradient-to-r from-pink-50 to-white p-8 rounded-xl shadow-sm">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/3 mb-6 md:mb-0 flex justify-center">
+                        <img src="https://images.pexels.com/photos/3760778/pexels-photo-3760778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Testimonial" class="w-32 h-32 rounded-full object-cover border-4 border-pink-200 shadow">
+                    </div>
+                    <div class="md:w-2/3 md:pl-8">
+                        <div class="text-2xl text-pink-500 mb-4">"</div>
+                        <p class="text-lg text-gray-700 mb-6">
+                            "Saya tak sangka landing page saya nampak macam brand besar! Sales naik dalam 3 hari je! Sebelum ni asyik confused nak design sendiri, lepas guna servis ni dah boleh fokus pada marketing. Customer pun lebih percaya dengan produk saya."
+                        </p>
+                        <div>
+                            <h4 class="font-bold text-lg">Nurul, Founder Skincare</h4>
+                            <div class="flex text-yellow-400 mt-1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="py-16 gradient-bg">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Jaminan Kepuasan Anda</h2>
+                <p class="text-gray-700 max-w-2xl mx-auto">Kami berkomitmen untuk kepuasan anda 100%</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                    <div class="text-pink-500 text-3xl mb-4">🔄</div>
+                    <h3 class="font-bold mb-2">2 Kali Revisi Percuma</h3>
+                    <p class="text-gray-600">Tak puas hati? Kami buat perubahan sehingga anda puas hati.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                    <div class="text-pink-500 text-3xl mb-4">🧾</div>
+                    <h3 class="font-bold mb-2">Contoh Hasil Kerja</h3>
+                    <p class="text-gray-600">Boleh tengok contoh design kami sebelum tempah.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                    <div class="text-pink-500 text-3xl mb-4">🔒</div>
+                    <h3 class="font-bold mb-2">Penghantaran Tepat Waktu</h3>
+                    <p class="text-gray-600">Komitmen kami untuk hantar dalam 3-5 hari bekerja.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                    <div class="text-pink-500 text-3xl mb-4">💬</div>
+                    <h3 class="font-bold mb-2">Support WhatsApp</h3>
+                    <p class="text-gray-600">Bantuan sepanjang proses sehingga anda puas hati.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Soalan Lazim</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Jawapan untuk soalan popular tentang servis kami</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto space-y-4">
+                <div class="faq-item bg-gray-50 p-6 rounded-lg">
+                    <div class="flex items-start">
+                        <div class="text-pink-500 text-xl mr-4">⏱️</div>
+                        <div>
+                            <h3 class="font-bold mb-2 text-lg">Berapa lama untuk siapkan landing page?</h3>
+                            <p class="text-gray-600">Biasanya kami ambil masa 3-5 hari bekerja setelah menerima semua maklumat dan bahan dari anda.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item bg-gray-50 p-6 rounded-lg">
+                    <div class="flex items-start">
+                        <div class="text-pink-500 text-xl mr-4">📄</div>
+                        <div>
+                            <h3 class="font-bold mb-2 text-lg">Apa yang perlu saya sediakan?</h3>
+                            <p class="text-gray-600">Anda perlu sediakan: (1) Nama produk (2) Gambar produk (3) Harga & promotion (4) Contact info (5) Contoh landing page yang anda suka (jika ada).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item bg-gray-50 p-6 rounded-lg">
+                    <div class="flex items-start">
+                        <div class="text-pink-500 text-xl mr-4">🛠️</div>
+                        <div>
+                            <h3 class="font-bold mb-2 text-lg">Boleh buat revisi jika tak puas hati?</h3>
+                            <p class="text-gray-600">Ya! Kami sediakan 2 kali revisi percuma. Selepas itu dikenakan bayaran tambahan untuk setiap revisi seterusnya.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item bg-gray-50 p-6 rounded-lg">
+                    <div class="flex items-start">
+                        <div class="text-pink-500 text-xl mr-4">✍️</div>
+                        <div>
+                            <h3 class="font-bold mb-2 text-lg">Termasuk copywriting ke?</h3>
+                            <p class="text-gray-600">Kami boleh bantu suggests copy tetapi anda perlu sediakan basic info. Untuk copywriting full boleh order sebagai add-on service.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item bg-gray-50 p-6 rounded-lg">
+                    <div class="flex items-start">
+                        <div class="text-pink-500 text-xl mr-4">🎯</div>
+                        <div>
+                            <h3 class="font-bold mb-2 text-lg">Sesuaikah untuk produk lain?</h3>
+                            <p class="text-gray-600">Ya, servis kami sesuai untuk pelbagai produk (skincare, makanan, fesyen dll) tetapi fokus utama kami adalah untuk skincare.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-16 bg-gradient-to-r from-pink-500 to-purple-600 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready Nak Naikkan Trust & Close Sale Guna Landing Page?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Jom mula run iklan dengan landing page yang convert tinggi!</p>
+            
+            <div class="max-w-md mx-auto bg-white rounded-xl p-8 shadow-lg">
+                <form id="contactForm" class="space-y-4" onsubmit="sendToWhatsApp(event)">
+                    <div class="text-left">
+                        <label for="name" class="block text-gray-700 font-medium mb-2">Nama Penuh</label>
+                        <input type="text" id="name" name="name" required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-500 text-gray-700"
+                            placeholder="Masukkan nama penuh anda">
+                    </div>
+                    <div class="text-left">
+                        <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                        <input type="email" id="email" name="email" required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-500 text-gray-700"
+                            placeholder="Masukkan email anda">
+                    </div>
+                    <div class="text-left">
+                        <label for="phone" class="block text-gray-700 font-medium mb-2">Nombor Telefon</label>
+                        <input type="tel" id="phone" name="phone" required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pink-500 text-gray-700"
+                            placeholder="Contoh: 012-345 6789">
+                    </div>
+                    <button type="submit" 
+                        class="w-full bg-pink-500 text-white px-8 py-4 rounded-full hover:bg-pink-600 transition text-lg font-medium inline-flex items-center justify-center shadow-lg">
+                        <i class="fab fa-whatsapp mr-3 text-xl"></i> Hantar & WhatsApp Sekarang
+                    </button>
+                </form>
+            </div>
+            <p class="mt-4">Kami akan balas dalam masa 2 jam bekerja (10am-10pm)</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-8 md:mb-0">
+                    <div class="text-2xl font-bold text-pink-400 mb-4">Hanafi Hassan</div>
+                    <p class="text-gray-400 max-w-xs">Servis bina landing page untuk usahawan baru yang nak mula iklan tapi tak tahu nak design.</p>
+                </div>
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#masalah" class="text-gray-400 hover:text-pink-400">Masalah</a></li>
+                        <li><a href="#solusi" class="text-gray-400 hover:text-pink-400">Solusi</a></li>
+                        <li><a href="#proses" class="text-gray-400 hover:text-pink-400">Proses</a></li>
+                        <li><a href="#testimoni" class="text-gray-400 hover:text-pink-400">Testimoni</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-pink-400">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Hubungi Kami</h3>
+                    <div class="flex items-center mb-4 text-gray-400">
+                        <i class="fab fa-whatsapp mr-3 text-xl text-pink-400"></i>
+                        <span>+6011-1135 7964</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">10am - 10pm (Setiap Hari)</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-pink-400 text-xl"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-pink-400 text-xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-pink-400 text-xl"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500">
+                <p>© 2025 Hanafi Hassan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/601111357964" class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-lg hover:bg-green-600 transition">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        // Simple script for FAQ items if you want to add toggle functionality later
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.addEventListener('click', function() {
+                const answer = this.querySelector('p');
+                answer.classList.toggle('hidden');
+            });
+        });
+
+        // Function to send form data to WhatsApp
+        function sendToWhatsApp(event) {
+            event.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            
+            // Format the message
+            const message = `*New Landing Page Inquiry*%0A%0A` +
+                          `*Name:* ${name}%0A` +
+                          `*Email:* ${email}%0A` +
+                          `*Phone:* ${phone}%0A%0A` +
+                          `*Message:* I'm interested in your landing page service. Please contact me.`;
+            
+            // WhatsApp number
+            const whatsappNumber = '601111357964';
+            
+            // Create WhatsApp URL
+            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
+            
+            // Open WhatsApp in new tab
+            window.open(whatsappUrl, '_blank');
+            
+            // Reset form
+            document.getElementById('contactForm').reset();
+        }
+    </script>
+</body>
+</html>
